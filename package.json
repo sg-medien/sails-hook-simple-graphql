@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-simple-graphql",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Sails hook which adds a graphql interface for your sails models.",
   "author": {
     "name": "Sebastian Galler",
@@ -9,8 +9,14 @@
   "bugs": "https://github.com/sg-medien/sails-hook-simple-graphql/issues",
   "contributors": [],
   "dependencies": {
+    "cors": "^2.8.1",
+    "express-graphql": "^0.6.1",
+    "graphql": "^0.8.2",
+    "graphql-custom-types": "^0.7.1",
     "include-all": "^1.0.6",
-    "lodash": "^4.16.4"
+    "lodash": "^4.16.4",
+    "moment": "^2.17.0",
+    "pluralize": "^3.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.16.0",
