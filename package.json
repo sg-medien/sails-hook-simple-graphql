@@ -1,0 +1,57 @@
+{
+  "name": "sails-hook-simple-graphql",
+  "version": "0.0.1",
+  "description": "Sails hook which adds a graphql interface for your sails models.",
+  "author": {
+    "name": "Sebastian Galler",
+    "email": "sg@sg-medien.com"
+  },
+  "bugs": "https://github.com/sg-medien/sails-hook-simple-graphql/issues",
+  "contributors": [],
+  "dependencies": {
+    "include-all": "^1.0.6",
+    "lodash": "^4.16.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.8.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "grunt": "^1.0.1",
+    "sails": "~0.12.0"
+  },
+  "scripts": {
+    "compile": "babel lib --out-dir dist",
+    "prepublish": "npm run compile"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "homepage": "https://github.com/sg-medien/sails-hook-simple-graphql",
+  "keywords": [
+    "sails-graphql",
+    "sails",
+    "graphql",
+    "sails-models",
+    "sails.js",
+    "sails-hook",
+    "hook",
+    "waterline",
+    "orm"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sg-medien/sails-hook-simple-graphql.git"
+  },
+  "sails": {
+    "isHook": true,
+    "hookName": "simplegraphql"
+  }
+}
