@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-simple-graphql",
-  "version": "0.2.3",
+  "version": "0.2.5",
   "description": "Sails hook which adds a graphql interface for your sails models.",
   "author": {
     "name": "Sebastian Galler",
